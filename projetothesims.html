@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeradorTheSims4</title>
+    <link rel="stylesheet" href="estilothesims.css">
+</head>
+<body>
+    <header id="topo">
+        <img src="midia/thesims4.png" alt="The Sims 4" id="logo">
+        <nav id="menu">
+            <a href="#">Cidades</a>
+            <a href="#">Idades</a>
+            <a href="#">Traços</a>
+            <a href="#">Ocultos</a>
+            <a href="#">Pets</a>
+        </nav>
+
+        <div id="hamburguer" onclick="alternarMenu()">
+            ☰
+        </div>
+
+        <div id="menu-lateral">
+            <a href="#">jhvfvh</a>
+            <a href="#">jbbobgo</a>
+            <a href="#">hbkhv</a>
+        </div>
+    </header>
+
+    <h1 id="titulo">Gerador de Famílias em</h1>
+    <img src="midia/thesimslogo.png" alt="Logo de The Sims 4" id="imagem-principal" width="500">
+
+    <div id="caixa">
+        <h2>Comece uma nova vida!</h2>
+        <p>Quantos integrantes deseja ter na família? (1 a 8)</p>
+
+        <div id="controle">
+            <button id="menos" onclick="diminuir()">-</button>
+            <span id="numero">1</span>
+            <button id="mais" onclick="aumentar()">+</button>
+        </div>
+
+        <div id="gerar">
+            <button id="botaogerar" onclick="botaogerar()">Gerar Família</button>
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+
+    <footer>
+        <p>...</p>
+    </footer>
+
+    <script src="projetothesims4site.js"></script>
+    <script src="scriptthesims.js"></script>
+</body>
+</html>
