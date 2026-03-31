@@ -53,7 +53,8 @@ header > a {
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #hamburguer {
