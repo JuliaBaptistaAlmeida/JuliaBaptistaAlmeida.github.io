@@ -24,6 +24,10 @@
     gap: 20px;
 }
 
+header > a {
+    color: white;
+}
+
 #logo {
     width: 70px;
 }
