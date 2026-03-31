@@ -11,7 +11,6 @@
     font-size: 1.8em;
     text-shadow: 2px 2px 2px #0f5e88;
     box-shadow: 2px 2px 5px #0f5e88;
-    color: white;
 
     position: fixed;
     top: 0;
@@ -32,6 +31,7 @@
 #menu {
     display: flex;
     gap: 20px;
+    color: white;
 }
 
 #menu > a:hover {
