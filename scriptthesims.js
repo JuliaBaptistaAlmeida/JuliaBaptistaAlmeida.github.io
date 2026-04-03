@@ -27,28 +27,3 @@ function alternarMenu() {
         menu.style.display = "flex";
     }
 }
-
-function botaogerar() {
-    let qtd = parseInt(document.getElementById("numero").innerText);
-    let resultado = document.getElementById("resultado");
-
-    let familia = criarFamilia(qtd); // 🔥 vem do outro JS
-    let cidade = choice(cidades);    // 🔥 vem do outro JS
-
-    let html = `<h3 class="verde">🌆 Cidade:</h3><h3><span>${cidade}<span></h3>`;
-
-    familia.forEach((membro, i) => {
-        html += `
-            <h3 class="verde">${i + 1}º integrante:</h3>
-            <p>
-            Tipo: ${membro.tipo}<br>
-            Raça: ${membro.raca}<br>
-            Sexo: ${membro.sexo}<br>
-            Idade: ${membro.idade}<br>
-            Traços: ${membro.tracos.join(", ")}
-            </p>
-        `;
-    });
-
-    resultado.innerHTML = html;
-}
