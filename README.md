@@ -19,13 +19,12 @@ Você pode gerar famílias com:
 * 👨‍👩‍👧 Quantidade personalizada de Sims (de 1 a 8)
 * 🧬 Gênero e idade definidos automaticamente
 * 🧛‍♂️ Diferentes raças/criaturas:
-
-  * Humanos
-  * Vampiros
-  * Sereias
-  * Gatos
-  * Cavalos
-  * E outros
+  * Humanos;
+  * Vampiros;
+  * Sereias;
+  * Gatos;
+  * Cavalos;
+  * E outros...
 * 🎭 Traços de personalidade sorteados automaticamente
 
 Cada geração cria uma família única, perfeita para novos desafios ou histórias dentro do jogo 🎲
