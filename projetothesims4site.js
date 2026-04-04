@@ -166,14 +166,16 @@ function botaogerar() {
 
     familia.forEach((membro, i) => {
         html += `
-            <h3 class="verde">${i + 1}º integrante:</h3>
-            <p>
-            Tipo: ${membro.tipo}<br>
-            Raça: ${membro.raca}<br>
-            Sexo: ${membro.sexo}<br>
-            Idade: ${membro.idade}<br>
-            Traços: ${membro.tracos.join(", ")}
-            </p>
+            <div class="integrante">
+                <h3 class="verde">${i + 1}º integrante:</h3>
+                <p>
+                Tipo: ${membro.tipo}<br>
+                Raça: ${membro.raca}<br>
+                Sexo: ${membro.sexo}<br>
+                Idade: ${membro.idade}<br>
+                Traços: ${membro.tracos.join(", ")}
+                </p>
+            </div>
         `;
     });
 
