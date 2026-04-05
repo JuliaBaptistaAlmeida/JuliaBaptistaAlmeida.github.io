@@ -2,7 +2,7 @@
 
 Um projeto criativo e divertido desenvolvido para gerar famílias aleatórias para o jogo **The Sims 4** 🏡✨
 
-[Acesse o projeto online](https://juliabaptistaalmeida.github.io/)
+* [Acesse o projeto online](https://juliabaptistaalmeida.github.io/)
 
 ---
 
