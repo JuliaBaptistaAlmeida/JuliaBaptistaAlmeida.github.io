@@ -32,6 +32,12 @@
     color: white;
 }
 
+@media (max-width: 600px) {
+    #menu {
+        display: none;
+    }
+}
+
 #menu > a:hover {
     background-color: #00bfff;
 
@@ -106,6 +112,16 @@ body {
     padding-bottom: 14rem;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    #titulo {
+        font-size: 1.5rem;
+    }
+}
+
 #titulo {
     color: #68cb36;
 
@@ -136,7 +152,7 @@ body {
     text-shadow: 2px 2px 2px #0f5e88;
     text-align: center;
 
-    margin: -100px auto;
+    margin: -80px auto 0 auto;
 
     border-radius: 15px;
 
@@ -165,7 +181,6 @@ body {
 }
 
 #controle > button {
-    
     background-color: #00bfff;
     width: 3rem;
     height: 3rem;
@@ -209,13 +224,25 @@ body {
 .integrante {
     background-color: #085CD3;
     box-shadow: 2px 2px 5px #0a496a;
-    width: 100%;
+    width: 90%;
     max-width: 370px;
 
     border-radius: 10px;
     padding: 0.1rem 1rem;
 
     margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    #controle > button {
+        width: 50px;
+        height: 50px;
+    }
+
+    #gerar > button {
+        width: 140px;
+        height: 40px;
+    }
 }
 
 footer {
@@ -237,23 +264,54 @@ footer {
     padding: 8px;
 }
 
-div > #resultado {
+#resultado {
     font-size: 1.3rem;
-    text-align: center;margin-top: 20px;
-
-    margin-top: 20px;
-}
-
-#resultado > p {
-    font-size: 1r.1em;
+    text-align: center;
     line-height: 1.3;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 20px;
 }
 
 .verde {
     color: #70d63d;
     text-shadow: 2px 2px 2px #276d1c;
+}
+
+@media (max-width: 600px) {
+    #menu {
+        display: none;
+    }
+
+    #titulo {
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    #imagem-principal {
+        width: 90%;
+        margin-top: -50px;
+    }
+
+    #caixa {
+        width: 95%;
+        margin: -50px auto 0 auto;
+        padding: 1.2rem;
+    }
+
+    #controle > button {
+        width: 50px;
+        height: 50px;
+    }
+
+    #gerar > button {
+        width: 140px;
+        height: 40px;
+    }
+
+    .integrante {
+        width: 95%;
+    }
 }
