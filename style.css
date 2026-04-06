@@ -36,6 +36,8 @@
     display: flex;
     gap: 1rem;
     color: white;
+
+    margin-left: 10px;
 }
 
 @media (max-width: 600px) {
