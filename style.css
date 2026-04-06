@@ -118,16 +118,6 @@ body {
     overflow-x: hidden;
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 0.9rem;
-    }
-
-    #titulo {
-        font-size: 1.5rem;
-    }
-}
-
 #titulo {
     color: #68cb36;
 
@@ -136,7 +126,6 @@ body {
     text-shadow: 2px 2px 2px #338526;
 
     padding: 0 10px;
-    padding-bottom: 0.8rem;
 }
 
 #imagem-principal {
@@ -283,13 +272,13 @@ footer {
     text-shadow: 2px 2px 2px #276d1c;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     #titulo {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     body {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     #imagem-principal {
@@ -298,9 +287,9 @@ footer {
     }
 
     #caixa {
-        width: 95%;
+        width: 60%;
         margin: -50px auto 0 auto;
-        padding: 1.2rem;
+        padding: 1rem;
     }
 
     #controle > button {
