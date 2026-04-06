@@ -278,6 +278,11 @@ footer {
 }
 
 @media (max-width: 500px) {
+    #menu {
+        font-size: 0.8rem;
+        gap: 0.4rem;
+    }
+
     #titulo {
         font-size: 1.5rem;
     }
