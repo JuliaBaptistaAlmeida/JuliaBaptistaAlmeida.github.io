@@ -89,19 +89,16 @@ a {
 }
 
 #menu-lateral > a:hover {
+    background-color: #0b9e299a;
     color: white;
     text-decoration: none;
 
     height: 1.8rem;
-    width: 100%;
+    width: 110%;
 
     padding: 3px 4px;
     transition: 0.5s;
     border-radius: 5px;
-}
-
-#menu-lateral > a:hover {
-    background-color: #0b9e299a;
 }
 
 body {
