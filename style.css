@@ -260,9 +260,6 @@ footer {
 }
 
 @media (max-width: 500px) {
-    #menu {
-        margin-left: -20px;
-    }
      #titulo {
         font-size: 1.5rem;
     }
