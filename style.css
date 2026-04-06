@@ -40,12 +40,6 @@
     margin-left: 10px;
 }
 
-@media (max-width: 600px) {
-    #menu {
-        display: none;
-    }
-}
-
 #menu > a:hover {
     background-color: #00bfff;
 
@@ -231,18 +225,6 @@ body {
     padding: 0.1rem 1rem;
 
     margin-bottom: 15px;
-}
-
-@media (max-width: 600px) {
-    #controle > button {
-        width: 50px;
-        height: 50px;
-    }
-
-    #gerar > button {
-        width: 140px;
-        height: 40px;
-    }
 }
 
 footer {
