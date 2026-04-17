@@ -69,7 +69,7 @@ Sem autorização prévia e explícita da autora.
 
 ## 💜 Observação
 
-Este projeto não possui qualquer afiliação oficial com *The Sims 4* ou sua desenvolvedora.
+Este projeto não possui qualquer afiliação oficial com *The Sims 4* ou sua desenvolvedora EA.
 
 ---
 
